@@ -1,0 +1,13 @@
+.caption {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 1310px;
+}
+
+.paragraph {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
