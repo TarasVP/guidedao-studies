@@ -1,13 +1,13 @@
 .caption {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .container {
-    max-width: 1310px;
+  max-width: 1310px;
 }
 
 .paragraph {
-    margin-bottom: 1em;
-    font-weight: bold;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
