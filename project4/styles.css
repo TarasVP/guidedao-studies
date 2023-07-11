@@ -1,0 +1,116 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Helvetica;
+}
+
+.header,
+.footer {
+  padding: 0;
+  background-color: #fe1a19;
+  color: white;
+  height: 60px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.header {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foter-left {
+  margin-left: 20px;
+}
+
+.footer-right {
+  margin-right: 20px;
+}
+
+.main-caption {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 904px;
+}
+
+.text-portion {
+  width: 400px;
+  height: 800px;
+  margin-top: 112px;
+  margin-bottom: 112px;
+  border: 5px solid #e5e000;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.left-column {
+  margin-left: 70px;
+}
+
+.right-column {
+  margin-right: 70px;
+}
+
+.text-portion-caption {
+  margin-top: 33px;
+  margin-left: 33px;
+  margin-bottom: 41px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.text-portion-list {
+  list-style-type: none;
+  margin-left: 33px;
+  padding: 0;
+}
+
+.list-item {
+  margin: 0;
+  padding: 0;
+}
+
+.sublist {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.list-item-caption {
+  margin: 0;
+  color: #000;
+  font-family: Times New Roman;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sublist-item {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Times New Roman;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
