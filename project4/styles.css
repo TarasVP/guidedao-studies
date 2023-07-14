@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -36,8 +42,6 @@
 }
 
 .main-caption {
-  padding: 0;
-  margin: 0;
   font-size: 100%;
 }
 
@@ -45,14 +49,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 904px;
 }
 
 .text-portion {
   width: 400px;
   height: 800px;
-  margin-top: 112px;
-  margin-bottom: 112px;
+  margin-top: 52px;
+  margin-bottom: 52px;
   border: 5px solid #e5e000;
   border-radius: 30px;
   box-sizing: border-box;
@@ -79,23 +82,14 @@
 .text-portion-list {
   list-style-type: none;
   margin-left: 33px;
-  padding: 0;
-}
-
-.list-item {
-  margin: 0;
-  padding: 0;
 }
 
 .sublist {
   list-style-type: none;
-  margin: 0;
   margin-bottom: 20px;
-  padding: 0;
 }
 
 .list-item-caption {
-  margin: 0;
   color: #000;
   font-family: Times New Roman;
   font-size: 20px;
@@ -105,8 +99,6 @@
 }
 
 .sublist-item {
-  margin: 0;
-  padding: 0;
   color: #000;
   font-family: Times New Roman;
   font-size: 20px;
