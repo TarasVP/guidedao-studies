@@ -17,6 +17,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0 !important;
+  z-index: 1000;
+  background-color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
   color: #e50043;
@@ -44,10 +48,6 @@
   display: flex;
   position: relative;
   margin-bottom: 150px;
-}
-
-.hero-lower {
-  position: relative;
 }
 
 .hero-upper {
